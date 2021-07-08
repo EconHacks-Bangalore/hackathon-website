@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgb(0, 0, 0);
   transition: all 0.5s;
   z-index: 997;
-  height: 86px;
+  height: 80px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 80px;
+  height: 80px;
 }
 
 .scrolled-offset {
@@ -464,7 +464,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 span {
-  color: #00CC00;
+  color: #3FCA95;
   text-shadow: black;
 }
 
@@ -486,25 +486,25 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #00CC00;
+  background: #3FCA95;
 }
 
 #hero .btn-get-started:hover {
-  background: #0f9922;
+  background: #086944;
 }
 
 #hero .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  color: #00cc00;
+  color: #3FCA95;
   font-weight: 600;
   display: flex;
   align-items: center;
 }
 
 #hero .btn-watch-video i {
-  color: #00CC00;
+  color: #3FCA95;
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
@@ -512,11 +512,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video:hover {
-  color: #098519;
+  color: #03945c;
 }
 
 #hero .btn-watch-video:hover i {
-  color: #049917;
+  color: #03945c;
 }
 
 @media (min-width: 1024px) {
