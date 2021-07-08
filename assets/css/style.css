@@ -192,13 +192,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #106eea;
 }
 
+
 #header .logo img {
-  max-height: 40px;
+  height: 60px;
+  width: 60px;
 }
 
 .scrolled-offset {
   margin-top: 70px;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -536,6 +539,20 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #hero {
     height: 100vh;
+  }
+  #topbar {
+    font-size: x-small;
+    height: 20px;
+  }
+  #header .logo a {
+    font-size: small;
+  }
+  #header .logo img {
+    width: 40px;
+    height: 40px;
+  }
+  #header {
+    height: 43px;
   }
   #hero h1 {
     font-size: 28px;
