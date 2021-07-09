@@ -1,4 +1,3 @@
-
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -15,7 +14,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -475,7 +474,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -837,7 +836,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
 }
 
@@ -1564,7 +1563,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #777777;
 }
 
