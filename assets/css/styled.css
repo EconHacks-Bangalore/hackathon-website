@@ -180,7 +180,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  height: 60px;
+  height: 80px;
+  position: relative;
+  bottom: -16px;
+  z-index: 1;
 }
 
 .scrolled-offset {
