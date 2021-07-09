@@ -1243,6 +1243,7 @@ section {
 }
 
 .team .member .member-info {
+  background-color: #222222;
   padding: 25px 15px;
 }
 
@@ -1250,7 +1251,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #222222;
+  color: #3FCA95;
 }
 
 .team .member .member-info span {
