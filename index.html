@@ -10,12 +10,15 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo.svg" rel="icon">
-  <link href="assets/img/logo.svg" rel="apple-touch-icon">
+  <link href="assets/img/EconHacksBangaloreIcon.png" rel="icon">
+  <link href="assets/img/EconHacksBangaloreIcon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+  
+  <!-- Fonts -->
+  <link href="assets\font\Inter\inter.css" rel="stylesheet">
+  
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,17 +27,30 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/styled.css" rel="stylesheet">
+
+  <!-- Apply with Devfolio Integration Script-->
+  <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+  
+  
+  <!-- =======================================================
+  * Template Name: BizLand - v3.3.0
+  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
 
   <!-- ======= Top Bar ======= -->
+  <!--
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:infobangalore@econhacks.org">infobangalore@econhacks.org</a></i>
-        <i class="bi bi-box d-flex align-items-center ms-4"><a href="index-dark.html">Dark Theme</a></i>
+        <i class="bi bi-box d-flex align-items-center ms-4"><a href="index.html">Light Theme</a></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -43,15 +59,14 @@
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
     </div>
-  </section>
-
+  </section>  -->
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
       
-      <a href="index.html" class="logo"><img src="assets/img/logow.svg" alt=""></a>
+      <a href="index.html" class="logo"><img src="assets/img/logo.svg" alt="EconHacks Bangalore"></a>
  
-      <h1 class="logo"><a style="justify-content: center;" href="index.html"><span>EconHacks</span>Bangalore</a></h1>
+      <h1 class="logo"><a href="index.html"><span>EconHacks</span>Bangalore</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <nav id="navbar" class="navbar">
         <ul>
@@ -73,11 +88,18 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <h1>Welcome to <span>EconHacks 2021</span><br>World's largest economics hackathon</h1>
-      <h2><strong>February 13 - 14th</strong></h2>
+      <h2><strong>October 1 - 3rd</strong></h2>
       <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">Go To Dashboard</a>
-        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Introduction</span></a>
-      </div>
+        <!-- <a href="#about" class="btn-get-started scrollto">Go To Dashboard</a> -->
+		<button class="btn btn-default"><img src="assets\img\ApplyWithDevfolio.svg"></button>
+	<!-- <div 
+		class="apply-button" 
+		data-hackathon-slug="YOUR-HACKATHON-SLUG" 
+		data-button-theme="light"
+		style="height: 44px; width: 312px"></div>
+	-->
+        <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Introduction</span></a> -->
+      </div> 
     </div>
   </section><!-- End Hero -->
 
@@ -92,42 +114,9 @@
         <div class="section-title">
           <h2>About EconHacks</h2>
           <h3>Welcome to <span>EconHacks</span></h3>
-          <p>EconHacks is a completely free 24 hours virtual hackathon that fosters hackers to solve problems in the field of economics. People from all over the world will gather around in the teams of 1-4 people and use code to solve some of the economic problems we are facing today, especially during this pandemic.</p>
+          <p>EconHacks is a completely free 72 hours virtual hackathon that fosters hackers to solve problems in the field of economics. People from all over India will gather around in the teams of 1-5 and use code to solve some of the economic problems we are facing today, especially during this pandemic.</p>
         </div>
 
-        <!-- <div class="row">
-          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li>
-                <i class="bx bx-store-alt"></i>
-                <div>
-                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
-                </div>
-              </li>
-              <li>
-                <i class="bx bx-images"></i>
-                <div>
-                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
-                </div>
-              </li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
-        </div> -->
 
       </div>
     </section><!-- End About Section -->
@@ -141,7 +130,7 @@
                   <div class="icon"><i class="bi bi-person"></i></div>
                   <h4 class="title"><a href="">Beginner Friendly</a></h4>
                   <p class="description">All students are welcomed! <br>
-                    We have various videolists that will be distributed in our chat to enhance participants' skills and assist them throughout the hackathon</p>
+                    We will conduct many workshops to help beginners get started and various resources that will be distributed in our chat to enhance participants' skills and assist them throughout the hackathon</p>
                 </div>
               </div>
     
@@ -181,31 +170,31 @@
 
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <!-- <div class="col-lg-3 col-md-6">
             <div class="count-box">
               <i class="bi bi-globe"></i>
-              <span data-purecounter-start="0" data-purecounter-end="23" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Countries</p>
+              <span data-purecounter-start="0" data-purecounter-end="72" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours of Fun</p>
             </div>
-          </div>
+          </div>  -->
 
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
               <i class="bi bi-currency-dollar"></i>
-              <span data-purecounter-start="0" data-purecounter-end="230000" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="50000" data-purecounter-duration="1" class="purecounter"></span>
               <p>Funding in Prizepool</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="22" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
               <p>Sponsors</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="bi bi-people"></i>
               <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
@@ -315,7 +304,7 @@ Corona has had a large impact in our lives. While millions of labourers migrate 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-1.png" class="img-fluid" alt="">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -325,7 +314,7 @@ Corona has had a large impact in our lives. While millions of labourers migrate 
               </div>
               <div class="member-info">
                 <h4>Ansh Tulsyan</h4>
-                <span>Chief Executive Officer</span>
+                <span>Lead Organiser</span>
               </div>
             </div>
           </div>
@@ -333,7 +322,7 @@ Corona has had a large impact in our lives. While millions of labourers migrate 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-2.gif" class="img-fluid" alt="">
+                <img src="assets/img/team/team-2.png" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -342,8 +331,8 @@ Corona has had a large impact in our lives. While millions of labourers migrate 
                 </div>
               </div>
               <div class="member-info">
-                <h4>Addy</h4>
-                <span>Product Manager</span>
+                <h4>Aditya Aggrawal</h4>
+                <span>Logistics</span>
               </div>
             </div>
           </div>
@@ -351,7 +340,7 @@ Corona has had a large impact in our lives. While millions of labourers migrate 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-3.png" class="img-fluid" alt="">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -360,8 +349,8 @@ Corona has had a large impact in our lives. While millions of labourers migrate 
                 </div>
               </div>
               <div class="member-info">
-                <h4>AI Ranger</h4>
-                <span>CTO</span>
+                <h4>Arghya</h4>
+                <span>Designer</span>
               </div>
             </div>
           </div>
@@ -473,7 +462,7 @@ Corona has had a large impact in our lives. While millions of labourers migrate 
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <h4>Sponsor Us</h4>
-            <p>View our prospectus to get more information about our hackathon,
+            <p>View our <a href="/assets/downloadable_assets/EconHacksBangaloreSponsorshipProspectus.pdf" download><u>prospectus</u></a> to get more information about our hackathon,
               sponsorship tiers & more.</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Sponsor">
