@@ -329,6 +329,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+  
 }
 
 /**
@@ -354,7 +355,11 @@ h1, h2, h3, h4, h5, h6 {
   .navbar ul {
     display: none;
   }
+  #header .logo{
+    top: -29px;
+  }
 }
+
 
 .navbar-mobile {
   position: fixed;
@@ -540,6 +545,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     height: 100vh;
   }
+
   #topbar {
     font-size: x-small;
     height: 20px;
@@ -548,8 +554,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: small;
   }
   #header .logo img {
-    width: 40px;
-    height: 40px;
+    visibility: hidden;
   }
   #header {
     height: 43px;
@@ -573,6 +578,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 120vh;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Sections General

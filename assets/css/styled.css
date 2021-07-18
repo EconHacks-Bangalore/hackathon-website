@@ -528,10 +528,11 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
   }
   #header .logo a {
-    font-size: small;
+    font-size: large;
   }
   #header .logo img {
-    width: 30px;
+      width: 50px;
+      top: 0px;
   }
   #hero .btn-watch-video span {
     visibility: hidden;
@@ -558,6 +559,11 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero .btn-get-started, #hero .btn-watch-video {
     font-size: 13px;
+  }
+}
+@media (max-width: 300px){
+  #header .logo a{
+    font-size: small;
   }
 }
 
