@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: snow;
 }
 
 a {
@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-  color: #39C795;
+  color: #3FCA95;
   text-decoration: none;
 }
 
@@ -738,7 +738,7 @@ section {
 .featured-services .description {
   font-size: 15px;
   line-height: 28px;
-  color: gray;
+  color: #cacaca;
   margin-bottom: 0;
 }
 
@@ -1286,6 +1286,7 @@ section {
 --------------------------------------------------------------*/
 .faq {
   padding: 60px 0;
+  background-color: black;
 }
 
 .faq .faq-list {
@@ -1352,7 +1353,7 @@ section {
 	height: 128px;
 }
 .sapling-tier img {
-	height: 96px;
+	height: 90px;
 }
 /*--------------------------------------------------------------
 # Sponsor Us
