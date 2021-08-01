@@ -1226,7 +1226,9 @@ section {
   opacity: 0;
   transition: ease-in-out 0.3s;
   text-align: center;
+  display: none;
 }
+
 
 .team .member .social a {
   transition: color 0.3s;
@@ -1349,17 +1351,22 @@ section {
 /*--------------------------------------------------------------
 # Our Sponsors
 --------------------------------------------------------------*/
+.pollen-tier img {
+		height: 30px;
+		opacity: 0.7;
+}
+
 .tree-tier img {
-	height: 90px;
+	height: 60px;
 	opacity: 0.9
 }
 .sapling-tier img {
-	height: 90px;
+	height: 50px;
 	opacity: 0.8
 }
 
 .title-sponsor-tier img {
-	height: 160px;
+	height: 90px;
 	opacity: 1
 }
 /*--------------------------------------------------------------
