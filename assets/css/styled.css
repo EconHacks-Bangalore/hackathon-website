@@ -1350,11 +1350,17 @@ section {
 # Our Sponsors
 --------------------------------------------------------------*/
 .tree-tier img {
-	height: 128px;
+	height: 90px;
+	opacity: 0.9
 }
 .sapling-tier img {
 	height: 90px;
-	opacity: 0.9
+	opacity: 0.8
+}
+
+.title-sponsor-tier img {
+	height: 160px;
+	opacity: 1
 }
 /*--------------------------------------------------------------
 # Sponsor Us
