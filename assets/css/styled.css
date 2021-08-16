@@ -1363,7 +1363,8 @@ section {
 
 .tree-tier img {
 	height: 60px;
-	opacity: 0.9
+	opacity: 0.9;
+  display: inline;
 }
 .sapling-tier img {
 	height: 50px;
