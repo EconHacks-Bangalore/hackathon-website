@@ -1561,7 +1561,7 @@ section {
   width: calc(100% - 100px);
 }
 
-#footer .footer-newsletter form input[type="submit"] {
+#footer .footer-newsletter form input[typed-color="submit"] {
   position: absolute;
   top: 0;
   right: 0;
@@ -1695,5 +1695,125 @@ section {
     float: none;
     text-align: center;
     padding: 2px 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
+.pricing{
+  background-color: rgb(0, 0, 0);
+}
+.pricing .box {
+  padding: 20px;
+  background: rgb(32, 32, 32);
+  text-align: center;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  position: relative;
+  left: 150px;
+  overflow: hidden;
+}
+
+.pricing .box h3 {
+  font-weight: 400;
+  margin: -20px -20px 20px -20px;
+  padding: 20px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  background: #39C795;
+}
+
+.pricing .box h4 {
+  font-size: 36px;
+  color: #39C795;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.pricing .box h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.pricing .box h4 span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing .box ul {
+  padding: 0;
+  list-style: none;
+  color: #ffffff;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.pricing .box ul li {
+  padding-bottom: 16px;
+}
+
+.pricing .box ul i {
+  color: #39C795;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+.pricing .box ul .na {
+  color: rgb(255, 255, 255);
+  text-decoration: line-through;
+}
+
+.pricing .btn-wrap {
+  margin: 20px -20px -20px -20px;
+  padding: 20px 15px;
+  background: #3b3b3b;
+  text-align: center;
+}
+
+.pricing .btn-buy {
+  background: #39C795;
+  display: inline-block;
+  padding: 8px 35px 10px 35px;
+  border-radius: 4px;
+  color: rgb(71, 71, 71);
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.pricing .btn-buy:hover {
+  background: #006900;
+  color: white;
+}
+
+.pricing .featured h3 {
+  color: #fff;
+  background: #39C795;
+}
+
+.pricing .advanced {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: #39C795;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .pricing .box{
+    left:0;
   }
 }
