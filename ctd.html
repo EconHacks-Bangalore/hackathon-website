@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EconHacksBangalore Waiting Room</title>
+    <meta content="EconHacks Bangalore is a beginner friendly 48 hour hackathon for high school and middle school students focused on tackling India's economic issues. It is the first economics hackathon by students for students in India with more than 10000$ in prizes supported by various tech companies" name="description">
+  <meta content="" name="keywords">
+   <meta property="og:title" content="EconHacks Bangalore">
+   <meta property="og:type" content="website" />
+   <meta property="og:description" content="EconHacks Bangalore is a beginner friendly 48 hour hackathon for high school and middle school students focused on tackling India's economic issues.">
+   <meta property="og:image" content="https://econhacksbangalore.live/assets/img/EventCard2.png">
+   <meta property="og:url" content="https://econhacksbangalore.live/">
+   <meta name="twitter:site" content="@EconHacksBLR">
+	<meta name="theme-color" content="#3FCA95">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="facebook-domain-verification" content="s4fwhcs6bs2ecqdi8hb2bmxiv4hv68" />
+	
+  <!-- Favicons -->
+  <link href="assets/img/EconHacksBangaloreIcon.png" rel="icon">
+  <link href="assets/img/EconHacksBangaloreIcon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="assets\font\Inter\inter.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+</head>
+<style>
+
+
+
+/* general styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+    font-size: 18px;
+    font-weight: bolder;
+  align-items: center;
+  /* background-image: url(assets/img/speh2.webm); */
+  display: flex;
+  font-family: -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", 
+    Roboto, 
+    Oxygen-Sans, 
+    Ubuntu, 
+    Cantarell, 
+    "Helvetica Neue", 
+    sans-serif;
+    position: relative;
+    bottom: 10%;
+    color: aqua;
+}
+
+.container {
+    border: 13px solid rgb(0, 243, 142);
+    border-radius: 55px;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  background-color: rgb(32, 32, 32);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left:2%;
+  padding-right: 2%;
+  width: 40%;
+  text-align: center;
+  position: relative;
+  bottom: -30%;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  z-index: -1;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+h1 {
+    font-size:35px;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 18px;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  li {
+    font-size: 1.125rem;
+    padding: .75rem;
+  }
+  
+  li span {
+    font-size: 3.375rem;
+  }
+  a {
+    color: black;
+  /* width: 15em; */
+  font-size: 1.0em;
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background-color: #3FCA95;
+  }
+}
+
+#bc{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 20;
+}
+</style>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="assets/img/speh.webm" type="video/mp4">
+      </video>
+      <div>
+          <button id='bc' class=".btn-info">Back</button>
+      </div>
+    <div class="container">
+        <h1 id="headline">THE EXTRAORDINARY HACK STARTS IN</h1>
+        <div id="countdown">
+          <ul>
+            <li><span id="days"></span>Days</li>
+            <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+            <a href="index.html" class="btn">Back</a>
+          </ul>
+        </div>
+        <div id="content" class="emoji">
+          <span>🥳</span>
+          <span>🎉</span>
+        </div>
+      </div>
+</body>
+<script>
+    (function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  let birthday = "Oct 9, 2021 00:00:00",
+      countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        let now = new Date().getTime(),
+            distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          let headline = document.getElementById("headline"),
+              countdown = document.getElementById("countdown"),
+              content = document.getElementById("content");
+
+          headline.innerText = "Hackathon has started!!";
+          countdown.style.display = "none";
+          content.style.display = "block";
+
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+</script>
+</html>
