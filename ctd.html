@@ -124,6 +124,7 @@ li span {
   padding: 1rem;
 }
 
+
 .emoji span {
   font-size: 4rem;
   padding: 0 .5rem;
@@ -131,13 +132,27 @@ li span {
 
 @media all and (max-width: 768px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 24px;
+    padding-top: 20%;
+  }
+
+  #se, #seconds{
+      visibility: hidden;
+      display: none;
+  }
+  li span{
+      font-size: 0.5rem;
   }
   
   li {
-    font-size: 1.125rem;
+    font-size: 13px;
     padding: .75rem;
   }
+  .container{
+      top: 12%;
+      height: 98%;
+    width: 100%;
+}
   
   li span {
     font-size: 3.375rem;
@@ -173,7 +188,7 @@ li span {
             <li><span id="days"></span>Days</li>
             <li><span id="hours"></span>Hours</li>
             <li><span id="minutes"></span>Minutes</li>
-            <li><span id="seconds"></span>Seconds</li>
+            <li id='se'><span id="seconds"></span>Seconds</li>
             <a href="index.html" class="btn">Back</a>
           </ul>
         </div>
