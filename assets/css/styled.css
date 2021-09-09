@@ -1009,7 +1009,7 @@ section {
   top: -20px
 }
 
-.countdown::before {
+.testimonials::before {
   content: "";
   position: absolute;
   left: 0;
